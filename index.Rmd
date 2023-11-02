@@ -8,14 +8,20 @@ here's my website. I hope you enjoy it.
 ----
 
 
+
+[Resume Link]("./Desktop/JStubbsUVU.github.io/Media/Josh_Stubbs_Resume.pdf")
+
+
+
+
+
+
 ```{r echo=FALSE}
 
 #<iframe src="./Desktop/JStubbsUVU.github.io/Media/Josh_Stubbs_Resume.pdf" width="100%" height="500px"></iframe>
 
 
-
-
-[Resume Link]("./Desktop/JStubbsUVU.github.io/Media/Josh_Stubbs_Resume.pdf")
+#[Resume Link]("./Desktop/JStubbsUVU.github.io/Media/Josh_Stubbs_Resume.pdf")
 
 #[file:///C:/Users/Joshua/Downloads/Josh%20Stubbs%20Resume.pdf](Josh Stubbs Resume.pdf)
 
