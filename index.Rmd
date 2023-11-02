@@ -3,7 +3,7 @@ output: html_document
 
 
 
-here's my website. I hope you enjoy it. did it work 
+here's my website. I hope you enjoy it.
 
 ----
 
@@ -15,9 +15,9 @@ here's my website. I hope you enjoy it. did it work
 
 
 
-#**[Resume]("./Media/Josh_Stubbs_Resume.pdf")**
+[Resume Link]("./Desktop/JStubbsUVU.github.io/Media/Josh_Stubbs_Resume.pdf")
 
-#[file:///C:/Users/Joshua/Downloads/Josh%20Stubbs%20Resume.pdf](Josh_Stubbs_Resume.pdf)
+#[file:///C:/Users/Joshua/Downloads/Josh%20Stubbs%20Resume.pdf](Josh Stubbs Resume.pdf)
 
 
 ```
