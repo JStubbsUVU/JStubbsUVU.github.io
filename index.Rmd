@@ -1,14 +1,25 @@
----
-date: "`r Sys.Date()`"
 output: html_document
 ---
 
 
 
 here's my website. I hope you enjoy it. did it work 
+
 ----
 
+
 ```{r echo=FALSE}
-knitr::include_graphics("./media/catburger.png")
+
+#<iframe src="./Desktop/JStubbsUVU.github.io/Media/Josh_Stubbs_Resume.pdf" width="100%" height="500px"></iframe>
+
+
+
+
+#**[Resume]("./Media/Josh_Stubbs_Resume.pdf")**
+
+#[file:///C:/Users/Joshua/Downloads/Josh%20Stubbs%20Resume.pdf](Josh_Stubbs_Resume.pdf)
+
+
 ```
+
 
