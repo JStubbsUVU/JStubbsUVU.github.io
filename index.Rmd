@@ -7,7 +7,7 @@ output:
       collapsed: false
     self_contained: yes
     keep_md: no
-pagetitle: community_phylogeny_decomposition
+pagetitle: Data_Analysis_Project
 ---
 
 ```{r setup, include=FALSE}
@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
 ```{css}
 body {
-  background-color: lightblue;
+  background-color: aliceblue;
 }
 
 #title {
@@ -26,7 +26,7 @@ body {
   margin: 15px;
   padding: 10px;
 }
-#abstract{
+#Introduction {
   background-color: white;
   border-radius: 5px;
   margin: 15px;
@@ -68,12 +68,7 @@ body {
   margin: 15px;
   padding: 10px;
 }
-#not-as-good-graphs {
-  background-color: white;
-  border-radius: 5px;
-  margin: 15px;
-  padding: 10px;
-}
+
 ```
 
 
@@ -81,11 +76,34 @@ body {
 
 ----
 
-## **Abstract**
+## **Title**
+**Zahn final project**
 
-**does this show up**
+## **Introduction**
 
-Josh Stubbs final project
+**Electric vehicles battery and range analysis**
+
+
+
+```{r}
+knitr::include_graphics("./Media/release_date_comb._range.png")
+```
+
+
+```{r}
+# Load in libraries
+library(ape)
+library(phangorn)
+library(ggplot2)
+library(tidyverse)
+library(kableExtra)
+library(plotly)
+library(patchwork)
+library(dplyr)
+library(tidyr)
+library(gridExtra)
+theme_set(theme_minimal())
+```
 
 
 
