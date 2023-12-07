@@ -1,17 +1,91 @@
-output: html_document
+---
+output: 
+  html_document:
+    code_folding: hide
+    toc: yes
+    toc_float:
+      collapsed: false
+    self_contained: yes
+    keep_md: no
+pagetitle: community_phylogeny_decomposition
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
 
 
-here's my website. I hope you enjoy it.
+```{css}
+body {
+  background-color: lightblue;
+}
+
+#title {
+  background-color: white;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px;
+}
+#abstract{
+  background-color: white;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px;
+}
+#methods {
+  background-color: white;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px;
+}
+#phylogenetic-tree {
+  background-color: white;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px;
+}
+#combinations {
+  background-color: white;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px;
+}
+#branch-lengths {
+  background-color: white;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px;
+}
+#experimental-results {
+  background-color: white;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px;
+}
+#all-visualizations-together {
+  background-color: white;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px;
+}
+#not-as-good-graphs {
+  background-color: white;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px;
+}
+```
+
+
+## [Resume Link](https://JStubbsUVU.github.io/Media/Josh_Stubbs_Resume.pdf) | [Final Project]()
 
 ----
 
+## **Abstract**
 
+**does this show up**
 
-[Resume Link](https://JStubbsUVU.github.io/Media/Josh_Stubbs_Resume.pdf) | [Final Project](site)
-
-
+Josh Stubbs final project
 
 
 
