@@ -117,6 +117,10 @@ ggplot(EV_3, aes(x = `Batt kWh`, y = `EVR (mi)`, color = factor(`Model Year`))) 
        color = "Release Date") +
   theme_minimal()
 
+
+
+
+
 #model that compares batt kwh evr mi and last 3 years
 
 # Convert 'Release Date' to Date format if not already done
@@ -132,3 +136,5 @@ model <- lm(`EVR (mi)` ~ `Batt kWh` + `Release Date`, data = EV_3)
 
 # Print the model summary
 summary(model)
+
+broom tidy 

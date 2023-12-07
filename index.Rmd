@@ -108,6 +108,21 @@ theme_set(theme_minimal())
 
 
 
+```{r}
+knitr::include_graphics("./Media/comparison of Batt and EVR wide.png")
+```
+
+```{r}
+knitr::include_graphics("./Media/Batt KWH and EVR wide.png")
+```
+
+
+```{r}
+knitr::include_graphics("./Media/")
+```
+
+
+
 ```{r echo=FALSE}
 
 #<iframe src="./Desktop/JStubbsUVU.github.io/Media/Josh_Stubbs_Resume.pdf" width="100%" height="500px"></iframe>
